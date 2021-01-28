@@ -1,0 +1,663 @@
+/* Media Queries */
+/* Mobile Layout*/
+@media (max-width: 767px) {
+    header img {
+        margin-left: 0 !important;
+    }
+
+    .page-layout #api .intro h1, .page-layout #api .intro h2, .page-layout #api .intro p, .page-layout h1{
+        font-size: 26px;
+        line-height: 28px;
+        margin: 50px 0px 30px;
+        width: auto ;
+    }
+
+    /* ########################## ====== #Sign In Page Styles ====== ########################## */
+    /*.basf-signin #api {
+        margin: 0 9% !important;
+    }*/
+
+    .basf-signin #api .localAccount .buttons {
+        text-align: center;
+    }
+
+    .basf-signin .create{
+        text-align: center;
+    }
+
+    /* ########################## ====== #Reset Password Page Styles ====== ########################## */
+    .basf-resetPassword {
+        width: auto !important;
+        /*margin: 0 16px !important;*/
+    }
+
+    /*.basf-resetPassword h1 {
+        font-size: 26px;
+        line-height: 28px;
+        margin: 50px 16px 0;
+        width: auto ;
+    }*/
+
+    /*.basf-resetPassword #api {
+        margin: 0 16px !important;
+    }*/
+
+    .basf-resetPassword #attributeVerification .TextBox .attrEntry>div:first-child {
+        margin-top: 0 !important;
+        margin-bottom: 26px !important;
+    }
+
+    .basf-resetPassword #attributeVerification .TextBox .verificationInfoText {
+        line-height: 19px !important;
+    }
+
+    /*.basf-resetPassword #attributeVerification .TextBox .attrEntry input#email,
+    .basf-resetPassword #attributeVerification .attrEntry .buttons.verify #email_ver_input {
+        width: 95% !important;
+        font-size: 16px !important;
+        padding: 14px 0 14px 17.45px !important;
+    }*/
+
+    /*.basf-resetPassword #attributeList .buttons.verify #email_ver_but_send {
+        margin: 32px auto 0 !important;
+        font-size: 14px !important;
+        height: 48px !important;
+        width: 100px !important;
+    }*/
+
+    .basf-resetPassword .cancel-cta {
+        margin: 26px 0 0 !important;
+    }
+
+    .basf-resetPassword #api .attr ul li.Password {
+        flex: 0 0 100% !important;
+    }
+
+    .basf-resetPassword #attributeList .buttons.verify .verifyButton {
+        margin: 32px 0 16px !important;
+        align-self: center !important;
+    }
+
+    .basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_resend {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .basf-resetPassword #attributeVerification .buttons {
+        justify-content: center !important;
+    }
+
+    /*.basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_edit {
+        margin: 96px 0 0 0 !important;
+    }*/
+
+    /*.basf-resetPassword #attributeVerification .buttons #continue {
+        margin: -158px 0 0 0 !important;
+        width: 100px !important;
+        height: 50px !important;
+    }*/
+
+    .basf-resetPassword #api .attr ul li.Password:first-child {
+        margin-bottom: 16px !important;
+    }
+
+    .basf-resetPassword h1 .header-text {
+        margin: 16px 0 5px 0 !important;
+    }
+
+    /*.basf-resetPassword #attributeVerification .attr.attr-list {
+        margin-right: 16px !important;
+    }*/
+
+    .basf-resetPassword #attributeVerification .attr.attr-list ul.new-pwd-list {
+        flex-direction: column !important;
+    }
+
+    .basf-resetPassword #attributeVerification .buttons.next-cta {
+        margin-right: 0 !important;
+        margin-top: 32px !important;
+    }
+
+    .basf-resetPassword #attributeVerification #claimVerificationServerError {
+        margin-top: 12px !important;
+    }
+
+    /*.basf-resetPassword #attributeVerification .buttons-block-cta {
+        flex-direction: column-reverse !important;
+        margin-top: 55% !important;
+        margin-right: 0 !important;
+    }*/
+
+    /* ########################## ====== #Sign Up Page Styles ====== ########################## */
+    /*.basf-signUp #api {
+        margin: 0 16px !important;
+    }*/
+
+    /*.basf-signUp #api .intro>p {
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+        font-size: 28px !important;
+    }*/
+
+    /*.basf-signUp #api #attributeList {
+        margin-right: 16px !important;
+    }*/
+
+    .basf-signUp #attributeVerification .attr ul li {
+        /*flex: 0 0 100% !important;*/
+        margin-top: 0 !important;
+        margin-bottom: 24px !important;
+        width: 100%;
+    }
+
+    .basf-signUp #attributeVerification .attr ul li:nth-child(10),
+    .basf-signUp #attributeVerification .attr ul li:nth-child(11) {
+        flex: 0 0 47% !important;
+    }
+
+    .basf-signUp #attributeVerification .attr ul li .attrEntry .textInput,
+    .basf-signUp #attributeVerification .attr ul li .attrEntry .dropdown_single {
+        font-size: 14px !important;
+        padding: 12px 0 12px 12px !important;
+    }
+
+    .basf-signUp #attributeVerification .buttons {
+        margin: 20px 0px 0 0 !important;
+    }
+
+    .basf-signUp .privacy-text {
+        margin: 0 16px;
+    }
+
+    /* ########################## ====== #Profile Update Page Styles ====== ########################## */
+    .profileUpdate-header img {
+        margin: 0 !important;
+    }
+
+    .user-name {
+        margin-right: 16px !important;
+    }
+
+    .profileUpdate-details h1 {
+        font-size: 20px !important;
+        margin-left: 16px !important;
+    }
+
+    .profileUpdate-details .details-list .details-list-item {
+        margin-right: 16px !important;
+        font-size: 12px !important;
+    }
+
+    .profileUpdate-details .details-list .details-list-item a {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .profileUpdate-menu .menu-list {
+        margin-left: 16px !important;
+    }
+
+    .profile-menu-container {
+        top: 64px !important;
+        right: 0 !important;
+    }
+
+    .profile-menu-block .user-name .user-name-cta {
+        font-size: 28px !important;
+        line-height: 32px !important;
+        margin-top: 26px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .profile-menu-block .user-name .user-email-cta {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        margin-bottom: 16px !important;
+    }
+
+    .profile-menu-cta {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .profile-menu-cta .myAccount-cta {
+        margin-bottom: 18px !important;
+        margin-top: 14px !important;
+    }
+
+    .profile-menu-cta .myOrder-cta {
+        margin-bottom: 18px !important;
+    }
+
+    .logout-block .logout-cta {
+        margin-top: 22px !important;
+        margin-bottom: 44px !important;
+        padding: 18px 0 !important;
+    }
+
+    .basf-profileUpdate {
+        margin-right: 16px !important;
+        margin-left: 16px !important;
+        width: auto !important;
+    }
+
+    .basf-profileUpdate #api {
+        margin: 0 16px !important;
+    }
+
+    .basf-profileUpdate #api .intro p {
+        font-size: 26px !important;
+        margin: 32px 0 6px !important;
+        line-height: normal !important;
+    }
+
+    .basf-profileUpdate #api #attributeVerification #requiredFieldMissing,
+    .basf-profileUpdate #api #attributeVerification #fieldIncorrect {
+        margin-top: 0 !important;
+        margin-bottom: -10px !important;
+    }
+
+    .basf-profileUpdate #attributeVerification .attr ul {
+        flex-direction: column !important;
+    }
+
+    .basf-profileUpdate #attributeVerification .attr ul li {
+        flex: 0 0 100% !important;
+        margin-right: 14px !important;
+        margin-top: 22px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .basf-profileUpdate #attributeVerification .attr ul li.DropdownSingleSelect {
+        flex: 0 0 100% !important;
+    }
+
+    .basf-profileUpdate #attributeVerification .attr ul li .attrEntry input,
+    .basf-profileUpdate #attributeVerification .attr ul li .attrEntry select {
+        font-size: 16px !important;
+        padding: 12px 0 12px 14px !important;
+    }
+
+    .basf-profileUpdate #attributeVerification .attr ul li:nth-child(8) {
+        margin-left: 0 !important;
+    }
+
+    .basf-profileUpdate #attributeVerification .buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 32px !important;
+        margin-bottom: 64px !important;
+    }
+
+    .basf-profileUpdate #attributeVerification #continue {
+        padding: 16px 20px !important;
+        font-size: 14px !important;
+        line-height: normal !important;
+    }
+
+    .basf-profileUpdate #attributeVerification #cancel {
+        margin-top: 24px !important;
+        margin-left: 0 !important;
+    }
+
+    /* ########################## ====== #Terms-Of-Use Page Styles ====== ########################## */
+    .basf-terms {
+        margin: 0 16px !important;
+        width: auto !important;
+    }
+
+    .basf-terms h1 {
+        margin: 64px 16px 32px !important;
+    }
+
+    .basf-terms .basf-terms-text {
+        margin: 0 16px !important;
+        width: auto !important;
+    }
+
+    .basf-terms #api {
+        margin: 0 16px !important;
+        width: auto !important;
+    }
+
+    .basf-terms #attributeVerification .attr .CheckboxMultiSelect .attrEntry {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .basf-terms #attributeVerification .attr .CheckboxMultiSelect input#extension_Terms_true {
+        margin-top: 20px !important;
+    }
+
+    .basf-terms #attributeVerification .attr .CheckboxMultiSelect label {
+        margin-left: 0 !important;
+        margin-top: 5px !important;
+    }
+
+    .basf-terms #attributeVerification #requiredFieldMissing {
+        margin-bottom: -7px !important;
+        margin-top: -9px !important;
+    }
+
+    .basf-terms .attrEntry .error.itemLevel {
+        margin-left: 0 !important;
+    }
+
+    .basf-terms #attributeVerification .buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 28px !important;
+        padding-bottom: 80px !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .basf-terms #attributeVerification .buttons #cancel {
+        margin-top: 20px !important;
+        margin-right: 0 !important;
+    }
+
+    .basf-resetPassword #attributeList .buttons.verify #email_ver_but_edit {
+        position: absolute;
+        bottom: -150px;
+    }
+}
+
+/*Tablet Layout */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+    /* ########################## ====== #Sign In Page Styles ====== ########################## */
+    /*.basf-signin #api {
+        margin: 0 100px !important;
+    }*/
+
+    /* ########################## ====== #Reset Password Page Styles ====== ########################## */
+    /*.basf-resetPassword h1 {
+        margin-left: 9% !important;
+        margin-bottom: 16px !important;
+    }*/
+
+    /*.basf-resetPassword #api {
+        margin: 0 9% !important;
+    }*/
+
+    /*.basf-resetPassword #attributeVerification .buttons #cancel {
+        margin-top: -6.5% !important;
+        margin-left: 50% !important;
+    }*/    
+
+    /*.basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_resend {
+        margin: -9% 0 0 -16% !important;
+    }*/
+
+    .basf-resetPassword .cancel-cta {
+        margin-left: 25% !important;
+    }
+
+    .basf-resetPassword #attributeList .buttons.verify #email_ver_but_send {
+        margin-right: 0 !important;
+    }
+
+    .basf-resetPassword #attributeList .buttons.verify .verifyButton {
+        /*margin-right: 57px !important;*/
+        /*height: 55px !important;
+        width: 160px !important;*/
+    }    
+
+    .basf-resetPassword #attributeVerification .buttons #continue.continue-btn-cta {
+        margin-right: 0 !important;
+    }
+
+    .basf-resetPassword .cancel-cta.cancel-cta-pos {
+        margin-top: 0 !important;
+    }
+
+    /* ########################## ====== #Sign Up Page Styles ====== ########################## */
+    /*.basf-signUp #api {
+        margin: 0 100px 0 80px !important;
+    }*/
+
+    .basf-signUp .privacy-text {
+        margin: 0 100px !important;
+    }
+
+    .basf-signUp #attributeVerification .attr ul li .attrEntry input#email_ver_input{
+        padding-left: 20px;
+    }
+
+    /* ########################## ====== #Terms-Of-Use Page Styles ====== ########################## */
+    .basf-terms h1 {
+        margin: 48px 0 0 100px !important;
+    }
+
+    .basf-terms-text {
+        width: auto !important;
+        margin: 32px 100px !important;
+    }
+
+    .basf-terms #api {
+        margin: 0 100px !important;
+    }
+
+    
+}
+
+/*Tablet Portrait */
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1024px) and (orientation: portrait) {
+
+    /* ########################## ====== #Reset Password Page Styles ====== ########################## */
+    .basf-resetPassword h1 {
+        margin-left: 9% !important;
+        margin-bottom: 16px !important;
+    }
+
+    /*.basf-resetPassword #api {
+        margin: 0 9% !important;
+    }*/
+
+    /*.basf-resetPassword #attributeVerification .buttons #cancel {
+        margin-top: -6.5% !important;
+        margin-left: 50% !important;
+    }*/
+
+    /*.basf-resetPassword #attributeList .buttons.verify .verifyButton,
+    .basf-resetPassword #attributeVerification .buttons #continue {
+        margin-right: 77px !important;
+    }*/
+
+    .basf-resetPassword #attributeVerification .buttons #continue.continue-btn-cta {
+        margin-right: 0 !important;
+    }
+
+    /*.basf-resetPassword .cancel-cta {
+        margin-left: 54px !important;
+    }
+
+    .basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_resend {
+        margin-left: 96px !important;
+    }*/
+
+    /* ########################## ====== #Sign Up Page Styles ====== ########################## */
+    /*.basf-signUp #api {
+        margin: 0 9% !important;
+    }*/
+
+    .basf-signUp .privacy-text {
+        margin: 0 100px !important;
+    }
+
+    /* ########################## ====== #Terms-Of-Use Page Styles ====== ########################## */
+    .basf-terms h1 {
+        margin: 48px 0 0 100px !important;
+    }
+
+    .basf-terms-text {
+        width: auto;
+        margin: 32px 100px !important;
+    }
+
+    .basf-terms #api {
+        margin: 0 100px !important;
+    }
+}
+
+
+@media (max-width: 669px) {
+    .basf-signUp #attributeVerification .buttons{
+        padding-right: 0;
+    }
+
+    .page-layout .buttons button{
+        width: 100%;
+        margin: 0 0 20px 0 !important;
+    }
+
+    .basf-signin #api .localAccount .buttons a#forgotPassword{
+        margin: 20px 0 0;
+    }
+
+    .page-layout .buttons #cancel{
+        right: 50%;
+    }
+}
+
+@media (max-width: 1023px){
+    .page-layout #api{
+        margin: 0 9%;
+    }
+}
+
+
+@media (min-width: 768px){
+    /*.page-layout .buttons #cancel, .page-layout.basf-resetPassword #attributeVerification .buttons #continue{
+        position: absolute;
+        top: 0px;
+        right: 20%;
+    }
+
+    .page-layout.basf-resetPassword .buttons #cancel, .page-layout.basf-resetPassword #attributeVerification .buttons #continue{
+        top: -55px;
+    }
+
+    .page-layout.basf-resetPassword #attributeVerification .buttons #continue {
+        right: 0;        
+    }*/
+
+    #attributeVerification{
+        position: relative;
+    }
+
+    /*#attributeVerification > .buttons{
+        margin-top: -57px;
+    }*/
+
+    .basf-resetPassword #attributeVerification > .buttons #cancel{
+        margin-right: 20%;
+    }
+
+    .basf-resetPassword #attributeVerification > .buttons.buttons-block-cta #cancel{
+        margin-right: 0!important;
+    }
+
+    .basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_edit {
+        margin-right: 20% !important;
+        width: auto !important;
+    }
+
+    .basf-resetPassword #attributeVerification .TextBox .attrEntry.validate .buttons.verify .verifyInput{
+        margin-bottom: 50px;
+    }
+
+    /*.basf-resetPassword #attributeList .buttons.verify #email_ver_but_send,*/ 
+
+    .basf-resetPassword #attributeList .buttons.verify #email_ver_but_edit {
+        position: absolute;
+        right: 0;
+    }
+
+    .basf-signin.page-layout #api .entry{
+        position: relative;
+    }
+
+    .basf-signin.page-layout .forgot-password{
+        display: inline-block;
+    }
+
+    /*Basf end User*/
+    .basf-enduser{
+        width: 70%;
+    }
+
+    .basf-signUp.basf-enduser #attributeVerification .attr ul li .attrEntry .textInput#email{
+        width: 73%;
+        vertical-align: top;
+    }
+
+    .basf-signUp.basf-enduser #attributeVerification .attr ul li .attrEntry .textInput#email.email-elt.w-100{
+        width: 100%;
+    }
+
+    .basf-signUp.basf-enduser #api .TextBox .attrEntry .buttons{
+        width: 25%;
+        margin-top: 3px;
+    }
+
+    .basf-enduser .page-layout button{
+        padding: 20px;
+    }
+
+    .basf-signUp.basf-enduser #attributeVerification .attr ul li .attrEntry .textInput#email.email-elt{
+        width: 48%;
+    }
+
+    .basf-signUp.basf-enduser #api .TextBox .attrEntry .buttons.button-verify{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .email-element{
+        position: absolute;
+        top: -96px;
+        right: 0;
+        width: 48%;
+    }
+
+    .basf-enduser #attributeList li{
+        display: inline-block;
+        margin: 30px 2% 0 1%;
+        width: 46%;
+    }
+
+    .basf-enduser #attributeList li:first-child,
+    .basf-enduser #attributeList li:nth-child(2),
+    .basf-enduser #attributeList li:nth-child(9),
+    .basf-enduser #attributeList li:nth-child(10),
+    .basf-enduser #attributeList li:nth-child(11){
+        width: 96%;
+    }
+
+    .basf-enduser #attributeList li:nth-child(9){
+        margin-top: 0px;
+    }
+
+    .basf-enduser #attributeList li:first-child,
+    .basf-enduser #attributeList li:nth-child(2){
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .basf-enduser #attributeList li:nth-child(14),
+    .basf-enduser #attributeList li:nth-child(15),
+    .basf-enduser #attributeList li:nth-child(16){
+        width: 29.3%;
+    }
+
+    .basf-enduser #attributeList li:nth-child(17),
+    .basf-enduser #attributeList li:nth-child(18),
+    .basf-enduser #attributeList li:nth-child(19),
+    .basf-enduser #attributeList li:nth-child(20){
+        width: 96%;
+    }
+}

@@ -1,0 +1,1478 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #63af00;
+    width: 100%;
+    height: 78px;
+    margin-bottom: 16px;
+}
+
+header img {
+    width: 155.84px;
+    margin-left: 30.9px;
+}
+
+/* ########################## ====== #Sign In Page Styles ====== ########################## */
+
+.basf-signin {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue Light";
+    border: 2px solid seashell;
+    border: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    margin-bottom: 225px;
+    box-sizing: border-box;
+}
+
+.basf-signin #api {
+    margin: 0 200px;
+}
+
+/*.basf-signin #api .localAccount .intro h2 {
+    font-size: 36px;
+    font-weight: 300;
+    padding-top: 70px;
+    margin-bottom: 32px;
+    color: #333333;
+    letter-spacing: normal;
+    line-height: 44px;
+}*/
+
+.basf-signin #api .localAccount .entry .entry-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 32px;
+}
+
+/*.basf-signin #api .localAccount .entry .entry-item div.itemLevel {
+    order: 3;
+}*/
+
+.basf-signin #api .localAccount .entry .entry-item div.itemLevel p,
+.basf-signin #api .localAccount .error.pageLevel p {
+    color: #d20d26;
+    font-size: 14px;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.basf-signin #api .localAccount .entry .entry-item label,
+.basf-signin #api .attrEntry label,
+.basf-signin #api .localAccount .entry .entry-item .password-label {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.basf-signin #api .localAccount .entry .entry-item input#logonIdentifier,
+.basf-signin #api .localAccount .entry .entry-item input#signInName,
+.basf-signin #api .localAccount .entry .entry-item input#password {
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 16px 0 16px 17.45px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    outline: none;
+}
+
+.basf-signin #api .localAccount .error.pageLevel {
+    margin-bottom: 12px;
+    margin-top: -24px;
+}
+
+.basf-signin #api .localAccount .buttons, .basf-changesignin #api #attributeVerification > .buttons {
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.basf-changesignin #api #attributeVerification > .buttons{
+    clear: both;
+}
+
+.basf-signin #api .localAccount .buttons button#next {
+    font-size: 16px;
+    padding: 20px 77px;
+    background: #63af00;
+    border: none;
+    color: #fff;
+    font-family: "Helvetica Neue Roman";
+}
+
+.basf-signin #api .localAccount .buttons a#forgotPassword {
+    font-size: 16px;
+    margin-left: 29px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #60b100;
+}
+
+.basf-signin #api .localAccount .divider {
+    display: none !important;
+}
+
+/*.basf-signin #api .localAccount .create > p {
+  display: none !important;
+}
+
+.basf-signin #api .localAccount .create > p > a {
+  display: none !important;
+}*/
+
+
+.basf-signin .create p{
+    margin: 0;
+}
+
+.basf-signin .create #createAccount{
+    margin-left: 20px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #60b100;
+}
+
+/* ########################## ====== #Reset Password Page Styles ====== ########################## */
+
+.basf-resetPassword {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue Light";
+    border: 2px solid seashell;
+    border: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    margin-bottom: 200px;
+    padding-bottom: 191px;
+}
+
+/*.basf-resetPassword h1 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    margin-left: 200px;
+    padding-top: 70px;
+    width: 431px;
+    color: #333333;
+}*/
+
+.basf-resetPassword #api {
+    margin: 0 200px;
+}
+
+/*.basf-resetPassword #api .intro p {
+    margin: 0 !important;
+    padding: 0 !important;
+}*/
+
+.basf-resetPassword #attributeVerification #attributeList {
+    text-align: left !important;
+}
+
+.basf-resetPassword #attributeVerification #attributeList ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.basf-resetPassword #attributeVerification .TextBox {
+    list-style: none;
+}
+
+.basf-resetPassword #attributeVerification .TextBox .attrEntry {
+    padding-top: 19px;
+}
+
+.basf-resetPassword #attributeVerification .TextBox .attrEntry>div:first-child {
+    margin-bottom: 32px;
+}
+
+.basf-resetPassword #attributeVerification .TextBox .verificationInfoText {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 32px;
+}
+
+.basf-resetPassword #attributeVerification .TextBox .attrEntry label {
+    font-size: 13px;
+}
+
+.basf-resetPassword #attributeVerification .TextBox .attrEntry input#email {
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 16px 0 16px 17.45px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.basf-resetPassword #attributeVerification .attrEntry .buttons.verify #email_ver_input {
+    align-self: flex-start;
+}
+
+/*.basf-resetPassword #attributeVerification .TextBox .attrEntry .buttons.verify {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*.basf-resetPassword #attributeVerification .TextBox .attrEntry.validate .buttons.verify #email_ver_input_label {
+    display: none !important;
+    /*position: absolute;
+    left: 19%;
+}*/
+
+/*.basf-resetPassword #attributeVerification .TextBox .attrEntry.validate .buttons.verify .verifyInput {
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 16px 0 16px 17.45px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}*/
+
+.basf-resetPassword #attributeVerification .TextBox .attrEntry.validate .verificationErrorText {
+    /*position: absolute;
+    top: 75%;*/
+    font-size: 14px;
+    color: #d20d26;
+}
+
+/*.basf-resetPassword #attributeList .buttons.verify #email_ver_but_send,
+.basf-resetPassword #attributeList .buttons.verify .verifyButton,
+.basf-resetPassword #attributeVerification .buttons #continue {
+    color: #fff;
+    background-color: #63af00;
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+    height: 58px;
+    width: 160px;
+    cursor: pointer;
+}*/
+
+/*.basf-resetPassword #attributeList .buttons.verify #email_ver_but_send {
+    margin: 20px 0px 0 0;
+    align-self: flex-end;
+}*/
+
+.basf-resetPassword #attributeList .buttons.verify .verifyButton {
+    margin: 0px 0px 0 30px;
+}
+
+/*.basf-resetPassword #attributeVerification .buttons #continue {
+    margin: -47px 0px 0 0;
+    width: 100px;
+}*/
+
+.basf-resetPassword #api .attr ul li .attrEntry .textInput {
+    font-size: 18px;
+    padding: 16px 0 16px 18px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.basf-resetPassword #api .attr ul li .attrEntry a {
+    text-decoration: none;
+    cursor: auto;
+}
+
+.basf-resetPassword #api .attr ul li .attrEntry {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.basf-resetPassword #api .attr ul li .attrEntry .helpText {
+    display: none;
+    margin-top: 3px;
+    color: #d20d26;
+    cursor: auto !important;
+    font-size: 12px;
+}
+
+.basf-resetPassword #api .attr ul li.Password .attrEntry .helpText{
+    order: 4;
+}
+
+.basf-resetPassword #api .attr ul li .attrEntry .helpText.show{
+    display: block;
+}
+
+
+.basf-resetPassword #api .attr ul.new-pwd-list li .attrEntry .helpText.show{
+    display: none;
+}
+
+/*.basf-resetPassword #attributeVerification .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}*/
+
+.basf-resetPassword #attributeVerification .buttons #cancel,
+.basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_edit,
+.basf-resetPassword .cancel-cta {
+    border: none;
+    background: none;
+    color: #60b100;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Helvetica Neue Roman";
+}
+
+.basf-resetPassword .cancel-cta {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: -36px;
+    margin-left: 25%;
+    text-decoration: none;
+    width: auto;
+}
+
+/*.basf-resetPassword #attributeVerification .buttons #cancel {
+    display: none !important;
+}*/
+
+/*.basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_but_edit {
+    padding: 0;
+    margin: 30px -25% 0 0;
+    width: 100%;
+}*/
+
+.basf-resetPassword #attributeVerification #passwordEntryMismatch {
+    font-size: 12px;
+    color: #d20d26;
+    background: none;
+    border: none;
+    margin: -19px 0 0;
+    padding: 0;
+}
+
+/*.basf-resetPassword #attributeList .attrEntry .buttons.verify #email_ver_input_label {
+    align-self: flex-start;
+    margin-top: 32px;
+}*/
+
+.basf-resetPassword #api .attr ul li.Password {
+    flex: 0 0 46%;
+    list-style: none;
+    font-size: 13px;
+    color: #333333;
+}
+
+.basf-resetPassword #api .attr ul li.Password .attrEntry div:first-child {
+    display: none;
+}
+
+.basf-resetPassword #attributeVerification #claimVerificationServerError {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: none;
+    color: #d20d26;
+    font-size: 14px;
+}
+
+.basf-resetPassword #attributeVerification .buttons-block-cta {
+    margin-top: 20px;
+}
+
+.basf-resetPassword #attributeVerification .buttons .continue-btn-cta {
+    margin: 0 !important;
+}
+
+.basf-resetPassword #attributeVerification .buttons .cancel-cta-pos {
+    margin-top: 0;
+    margin-right: 32px;
+    width: auto;
+}
+
+.basf-resetPassword #attributeVerification #requiredFieldMissing {
+    background: none;
+    border: none;
+    margin: -20px 0 4px;
+    padding: 0;
+    font-size: 14px;
+    color: #d20d26;
+}
+
+.hideCls {
+    display: none !important;
+}
+
+.showCls {
+    display: block !important;
+}
+
+.m-rt {
+    margin-right: 33% !important;
+}
+
+/* ########################## ====== #Sign Up Page Styles ====== ########################## */
+
+.basf-signUp {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue Light";
+    border: 2px solid seashell;
+    border: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    margin-bottom: 38px;
+    box-sizing: border-box;
+}
+
+/*.basf-signUp #api {
+    margin: 0 200px;
+}*/
+
+.basf-signUp #api .verifying-modal {
+    display: none;
+}
+
+/*.basf-signUp #api .intro>p {
+    font-size: 36px !important;
+    font-weight: 300 !important;
+    margin-bottom: 31px;
+    padding-top: 70px;
+    color: #333333;
+    letter-spacing: normal;
+    line-height: 44px;
+}*/
+
+.basf-signUp #attributeVerification .attr ul, .basf-changesignin #attributeVerification .attr ul  {
+    margin: 0;
+    padding: 0;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;*/
+}
+
+.basf-changesignin #attributeVerification .attr ul li {
+    list-style: none;
+}
+
+.basf-signUp #attributeVerification .attr ul li.CheckboxMultiSelect .attrEntry {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*.basf-signUp #attributeVerification .attr .CheckboxMultiSelect .attrEntry {
+    display: flex;
+    //align-items: center;
+    flex-direction: row !important;
+}*/
+
+.basf-signUp #attributeVerification .attr ul li.CheckboxMultiSelect .attrEntry label {
+    /*width: 600px;*/
+    margin-left: 16px;
+}
+
+.basf-signUp #attributeVerification .attr ul li, .basf-changesignin #attributeVerification .attr ul li {
+    list-style: none;
+    margin-top: 32px;
+    flex: 0 0 45%;
+}
+
+/*.basf-signUp #attributeVerification .attr ul li:first-child,
+.basf-signUp #attributeVerification .attr ul li:nth-child(2) {
+  margin-top: 0;
+}*/
+
+.basf-signUp #attributeVerification .attr ul li:nth-child(5),
+.basf-signUp #attributeVerification .attr ul li:nth-child(8),
+.basf-signUp #attributeVerification .attr ul li:nth-child(12) {
+    flex: 0 0 100%;
+}
+
+.basf-signUp #attributeVerification .attr ul li:nth-child(10),
+.basf-signUp #attributeVerification .attr ul li:nth-child(11) {
+    flex: 0 0 20%;
+}
+
+.basf-signUp #attributeVerification .attr ul li:nth-child(10) {
+    margin-right: -16px;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry label {
+    font-size: 13px;
+    line-height: 16px;
+    color: #333333;    
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry label#email_ver_input_label{
+    float: left;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry .textInput,
+.basf-changesignin #attributeVerification .attr ul li .attrEntry .textInput,
+.basf-signUp #attributeVerification .attr ul li .attrEntry .dropdown_single {
+    box-sizing: border-box;
+    /* Rahman's changes */
+    font-size: 18px;
+    padding: 16px 0 16px 18px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    outline: none;
+}
+
+/*.basf-signUp #attributeVerification .attr ul li .attrEntry {
+    display: flex !important;
+    flex-direction: column;
+}*/
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry .itemLevel {
+    order: 4;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry.validate .error.itemLevel.show,
+.basf-signUp #attributeVerification .attr ul li .attrEntry.validate .error.itemLevel {
+    color: #d20d26;
+    font-size: 12px;
+}
+
+.basf-signUp #attributeVerification #requiredFieldMissing,
+.basf-signUp #attributeVerification #fieldIncorrect,
+.basf-signUp #attributeVerification #passwordEntryMismatch {
+    font-size: 14px;
+    color: #d20d26;
+    margin-top: -16px;
+    margin-bottom: 16px;
+}
+
+.basf-signUp #attributeVerification .buttons {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.basf-signUp #attributeVerification .buttons #continue {
+/*    color: #fff;
+    background-color: #63af00;
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 33px;
+    cursor: pointer;*/
+    margin: 0 0px 0 32px;
+}
+
+.basf-signUp #attributeVerification .buttons #cancel {
+    border: none;
+    background: none;
+    color: #60b100;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Helvetica Neue Roman";
+}
+
+.basf-signUp #attributeVerification #claimVerificationServerError {
+    font-size: 14px;
+    color: #d20d26;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry a {
+    display: none;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry a#dataLink {
+    display: inline-block;
+    color: #60b100;
+    text-decoration: none;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry .error.itemLevel:not(:nth-of-type(1)) {
+    display: none;
+}
+
+.basf-signUp #attributeVerification .attr ul li .attrEntry .error.show {
+    display: block !important;
+}
+
+.basf-signUp .privacy-text {
+    font-size: 12.5px;
+    margin: 0 200px;
+    padding-bottom: 32px;
+    line-height: normal;
+}
+
+.basf-signUp .privacy-text .privacy-text-cta {
+    display: inline-block !important;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    margin: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+/* Email Verification button styles */
+
+/*.basf-signUp #attributeVerification .attr ul li .attrEntry label#email_ver_input_label {
+    display: none !important;
+}*/
+
+/*.basf-signUp #attributeVerification .attr ul li .attrEntry input#email_ver_input
+.basf-resetPassword #attributeVerification .TextBox .attrEntry.validate .buttons.verify .verifyInput {
+    
+}*/
+
+.basf-signUp #api .TextBox .attrEntry .buttons {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+/*.basf-signUp #api .TextBox .attrEntry .buttons button {
+    color: #fff;
+    background-color: #63af00;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 33px;
+    cursor: pointer;
+    margin: 0 0px 0 0px;
+}*/
+
+.basf-signUp #api .TextBox .attrEntry .buttons button#email_ver_but_verify {
+    margin: 0;
+    margin-left: 30px;
+}
+
+/* ########################## ====== #Profile Update Page Styles ====== ########################## */
+
+.profileUpdate-header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Helvetica Neue Roman";
+    margin-bottom: 0;
+    background-color: #65ad1e;
+}
+
+.profileUpdate-header img {
+    margin: 0px 0 0 30.9px;
+    width: 155.48px;
+}
+
+.user-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 52px;
+    text-transform: capitalize;
+}
+
+.user-name a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile-menu-container {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #fff;
+    border-radius: 4px;
+    border: 2px solid seashell;
+    border: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    z-index: 10;
+    font-family: "Helvetica Neue Light";
+    display: none;
+}
+
+.profile-menu-block {
+    margin: 0 29px;
+}
+
+.profile-menu-block .user-name {
+    display: block;
+    margin-right: 0;
+}
+
+.profile-menu-block .user-name .user-name-cta {
+    color: #333;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 37.93px;
+    margin-bottom: 14px;
+}
+
+.profile-menu-block .user-name .user-email-cta {
+    color: #828282;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 22px;
+    text-transform: none;
+}
+
+.profile-menu-block hr {
+    border: 1px solid #bebebe;
+}
+
+.profile-menu-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.profile-menu-cta a {
+    text-decoration: none;
+    color: #828282;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.profile-menu-cta .myAccount-cta {
+    padding: 13px 120px 12px;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+.profile-menu-cta .myOrder-cta {
+    margin-bottom: 22px;
+    padding: 12px 107px 12px;
+}
+
+.logout-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.logout-block a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #63af00;
+    width: 100%;
+}
+
+.logout-block .logout-cta {
+    margin-top: 29px;
+    margin-bottom: 53px;
+    padding: 20px 0;
+}
+
+.profileUpdate-details,
+.profileUpdate-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc;
+    height: 67px;
+    font-family: "Helvetica Neue Light";
+}
+
+.profileUpdate-menu {
+    background-color: #65ad1e;
+    height: 45px;
+    margin-bottom: 40px;
+}
+
+.profileUpdate-details h1 {
+    margin-left: 50px;
+    letter-spacing: 0.5px;
+    color: #333333;
+}
+
+.profileUpdate-details .details-list,
+.profileUpdate-menu .menu-list {
+    display: flex;
+}
+
+.profileUpdate-menu .menu-list {
+    margin-left: 49px;
+    padding: 0;
+}
+
+.profileUpdate-details .details-list .details-list-item,
+.profileUpdate-menu .menu-list .menu-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.profileUpdate-details .details-list .details-list-item:last-child {
+    margin-right: 48px;
+}
+
+.profileUpdate-details .details-list .details-list-item a,
+.profileUpdate-menu .menu-list .menu-list-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #65ad1e;
+}
+
+.profileUpdate-menu .menu-list .menu-list-item a {
+    color: #fff;
+}
+
+.basf-profileUpdate {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue Light";
+    border: 2px solid seashell;
+    border: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    margin-bottom: 240px;
+}
+
+.basf-profileUpdate #api {
+    margin: 0 60px;
+}
+
+.basf-profileUpdate #api .intro p {
+    font-size: 36px;
+    font-weight: 300 !important;
+    padding-top: 70px;
+    margin-bottom: 31px;
+    color: #333333;
+    letter-spacing: normal;
+    line-height: 44px;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li {
+    list-style: none;
+    margin-top: 32px;
+    flex: 0 0 47%;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li .attrEntry label {
+    font-size: 13px;
+    color: #333333;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li .attrEntry input,
+.basf-profileUpdate #attributeVerification .attr ul li .attrEntry select {
+    font-size: 18px;
+    padding: 16px 0 16px 18px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    outline: none;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li:first-child,
+.basf-profileUpdate #attributeVerification .attr ul li:nth-child(2) {
+    margin-top: 0;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li:nth-child(5),
+.basf-profileUpdate #attributeVerification .attr ul li:nth-child(6) {
+    flex: 0 0 100%;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li:nth-child(8) {
+    flex: 0 0 15%;
+    margin-left: 20px;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li:nth-child(9) {
+    flex: 0 0 27%;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li:last-child {
+    flex: 0 0 100%;
+}
+
+.basf-profileUpdate #attributeVerification .buttons {
+    margin-top: 60px;
+    padding-bottom: 91px;
+}
+
+.basf-profileUpdate #attributeVerification #continue {
+    font-family: "Helvetica Neue Roman";
+    color: #fff;
+    background-color: #63af00;
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 33px;
+    cursor: pointer;
+}
+
+.basf-profileUpdate #attributeVerification #cancel {
+    font-family: "Helvetica Neue Roman";
+    border: none;
+    background: none;
+    color: #60b100;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 29px;
+}
+
+.basf-profileUpdate #api #attributeVerification #requiredFieldMissing,
+.basf-profileUpdate #api #attributeVerification #fieldIncorrect {
+    font-size: 14px;
+    color: #d20d26;
+    margin-top: -22px;
+    margin-bottom: 10px;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li .attrEntry a {
+    display: none;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li .attrEntry {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.basf-profileUpdate #attributeVerification .attr ul li .attrEntry .error.itemLevel {
+    font-size: 12px;
+    text-decoration: none;
+    color: #d20d26;
+    order: 4;
+}
+
+/* ########################## ====== #Terms-Of-Use Page Styles ====== ########################## */
+.basf-terms {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue Light";
+    border: 2px solid seashell;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    margin-bottom: 225px;
+}
+
+.basf-terms h1 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    margin-left: 200px;
+    padding-top: 70px;
+    color: #333333;
+}
+
+.basf-terms-text {
+    margin: 0 200px;
+    width: 727px;
+    height: 120px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333;
+    margin-top: 43.19px;
+    margin-bottom: 28px;
+    overflow: auto;
+}
+
+.basf-terms #api {
+    margin: 0 200px;
+}
+
+.basf-terms #attributeVerification .attr .CheckboxMultiSelect {
+    list-style: none;
+}
+
+.basf-terms #attributeVerification .attr .CheckboxMultiSelect .attrEntry {
+    display: flex;
+    align-items: center;
+}
+
+.basf-terms #attributeVerification .attr .CheckboxMultiSelect .attrEntry label:first-child {
+    display: none;
+}
+
+.basf-terms #attributeVerification .attr .CheckboxMultiSelect input#extension_Terms_true {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #cccccc;
+    background-color: #000;
+    color: red;
+    margin: 0;
+}
+
+.basf-terms #attributeVerification .attr ul {
+    margin: 0;
+    padding: 0;
+}
+
+.basf-terms #attributeVerification .attr .CheckboxMultiSelect label {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+    margin-left: 14px;
+}
+
+.basf-terms #attributeVerification .attr .CheckboxMultiSelect a {
+    display: none;
+}
+
+.basf-terms #attributeVerification .buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 28px;
+    padding-bottom: 151px;
+}
+
+.basf-terms #attributeVerification .buttons #cancel {
+    border: none;
+    background: none;
+    color: #60b100;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Helvetica Neue Roman";
+    margin-right: 30px;
+}
+
+.basf-terms #attributeVerification .buttons #continue {
+    color: #fff;
+    background-color: #63af00;
+    border: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+    cursor: pointer;
+    height: 58px;
+    width: 100px;
+}
+
+.basf-terms #attributeVerification #requiredFieldMissing {
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: -19px;
+    color: #d20d26;
+}
+
+.basf-terms .attrEntry .error.itemLevel {
+    font-size: 12px;
+    color: #d20d26;
+    margin-top: 2.7px;
+    margin-left: 14px;
+    order: 4;
+}
+
+.basf-terms .terms-policy-text {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 16px;
+    width: 50%;
+    line-height: normal;
+}
+
+.basf-terms .terms-policy-text .policy-text-cta {
+    display: inline-block !important;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* ########################## ====== #Profile-Login Page Styles ====== ########################## */
+.basf-profile-login #api .intro p {
+    font-size: 36px !important;
+    font-weight: 300 !important;
+    padding-top: 70px;
+    margin-bottom: 32px;
+    color: #333333;
+    letter-spacing: normal;
+    line-height: 44px;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul {
+    margin: 0;
+    padding: 0;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li {
+    display: flex;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li.TextBox {
+    margin-bottom: 32px;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li .attrEntry {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li .attrEntry label {
+    font-size: 13px;
+    color: #333333;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li .attrEntry #signInName,
+.basf-profile-login #api #attributeVerification #attributeList ul li .attrEntry #password {
+    font-size: 18px;
+    padding: 16px 0 16px 17.45px;
+    width: 87%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    outline: none;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li .attrEntry .error.itemLevel {
+    order: 3;
+    font-size: 12px;
+    color: #d20d26;
+}
+
+.basf-profile-login #api #attributeVerification #attributeList ul li .attrEntry .helpLink {
+    display: none !important;
+}
+
+.basf-profile-login #api #attributeVerification .buttons {
+    margin-top: 60px;
+    padding-bottom: 150px;
+}
+
+.basf-profile-login #api #attributeVerification .buttons #continue {
+    font-size: 16px;
+    padding: 16px 40px;
+    background: #63af00;
+    border: none;
+    color: #fff;
+    text-transform: capitalize !important;
+    font-family: "Helvetica Neue Roman";
+}
+
+.basf-profile-login #api #attributeVerification .buttons #cancel {
+    border: none;
+    background: none;
+    color: #60b100;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+    margin-left: 32px;
+    font-family: "Helvetica Neue Roman";
+}
+
+.basf-profile-login #api #attributeVerification .error.pageLevel {
+    font-size: 14px;
+    color: #d20d26;
+    margin-bottom: 16px;
+    margin-top: -16px;
+}
+
+.basf-profile-login #api #attributeVerification .verifying-modal div#verifying_blurb {
+    display: none;
+}
+
+
+/********** Page Layout CSS *********/
+.page-layout #api{
+    margin: 0 15%;
+}
+
+.page-layout .buttons{
+    position: relative;
+}
+
+.page-layout .buttons button{    
+    float: right;
+}
+
+.basf-signin.page-layout .buttons button{
+    float: none;
+}
+
+.basf-signin.page-layout #api{
+    padding-bottom: 10%;
+}
+
+.page-layout button{
+    color: #fff;
+    background-color: #63af00;    
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    height: auto;
+    line-height: 18px;
+    padding: 20px 33px;
+    cursor: pointer;
+    margin: 0 0px 0 0px;
+    width: auto;
+}
+
+.page-layout button#email_ver_but_resend {
+    border: none;
+    background: #fff;
+    color: #60b100;
+}
+
+.page-layout .buttons button:hover{
+    background: #63af00;
+    border: 0 none;
+}
+
+.page-layout #api .intro h1, .page-layout #api .intro h2, .page-layout #api .intro p, .page-layout h1{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    color: #333333;
+    letter-spacing: normal;
+    line-height: 44px;
+}
+
+.page-layout input[disabled]{
+    background-color: #dcdcdc !important;
+}
+
+
+.page-layout #attributeVerification .attr ul li .attrEntry input#email_ver_input{
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 16px 0 16px 17.45px;
+    width: 100%;
+    border: 0px solid #8f8f8f;
+    border-top: 1.5px double #a9a9a9;
+    background: #f0f0f0;
+    color: #8f8f8f;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.page-layout .error{
+    font-size: 12px;
+    color: #d20d26;
+}
+
+.buttons button:disabled, .buttons button:disabled:hover {
+    background: #bada9a;
+    color: #fff;
+    cursor: default;
+}
+
+.page-layout input.highlightError, .page-layout input.invalid{
+    background: #fae5e8 !important;
+    border-color: #d20c25 !important;
+    color: #d0021b !important;
+}
+
+.basf-resetPassword.page-layout input.highlightError, .basf-resetPassword.page-layout input.invalid{
+    background: #f0f0f0 !important;
+    color: #8f8f8f !important;
+    border-color: #a9a9a9 !important;
+}
+
+#localAccountForm{
+    position: relative;
+}
+
+.forgot-password{
+    text-align: center;
+}
+
+.forgot-password a#forgotPassword{
+    text-decoration: none;
+    color: #60b100;
+}
+
+.basf-resetPassword #api .attr ul li .attrEntry a.helpLink, .basf-changesignin #api .attr ul li .attrEntry a.helpLink{
+    display: none;
+}
+
+/*.agassist-layout.basf-signUp #attributeVerification .buttons.verify, .agassist-layout.basf-signUp li.Password:nth-child(2) {
+    border-bottom: 1px dashed #a9a9a9;
+}
+
+.agassist-layout.basf-signUp li.Password:nth-child(2) {
+    margin-bottom: 20px;
+}*/
+
+
+/*.margin-right-20{
+    margin-right: 20% !important;
+}
+
+.margin-right-35{
+    margin-right: 35% !important;
+}
+
+.margin-right-40{
+    margin-right: 40% !important;
+}*/
+
+
+/*Basf Change sign in */
+
+.basf-changesignin #cancel{
+    border: none;
+    background: none;
+    color: #60b100;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Helvetica Neue Roman"
+}
+
+.basf-changesignin .buttons.verify button{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.basf-changesignin .attrEntry #email{
+    margin-bottom: 32px;
+}
+
+.basf-changesignin .attrEntry label[for='email']{
+    margin-top: 30px;
+    display: block;
+}
+
+/*Basf End User*/
+
+.bg-grey{
+    background: #f0f0f0;
+    padding: 50px 0;
+}
+
+.basf-enduser {
+    background: #ffffff;
+    margin-bottom: 0;
+}
+
+.basf-enduser header{
+    margin-bottom: 0;
+}
+
+.basf-enduser .Paragraph p, .basf-enduser #email_intro, .basf-enduser #email_info{
+    color: #A3A3A3;
+}
+
+.basf-signUp.basf-enduser  #attributeVerification .attr ul li .attrEntry label{
+    display: block;
+}
+
+.basf-signUp.basf-enduser  #attributeVerification .attr ul li.CheckboxMultiSelect .attrEntry label{
+    display: inline-block;
+}
+
+.basf-signUp.basf-enduser  #attributeVerification .attr ul li.CheckboxMultiSelect{
+    margin-top: 0;
+}
+
+.basf-enduser .attrEntry > div:first-child{    
+    margin-bottom: 40px;
+}
+
+.basf-enduser .float-left{
+    float: left !important;
+}
+
+.basf-signUp #api .TextBox .attrEntry .buttons button#email_ver_but_verify.float-left{
+    margin-left: 0;
+}
+
+.basf-enduser #attributeList{
+    padding-bottom: 50px;
+}
+
+.basf-enduser #api #attributeVerification > .buttons{
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+.basf-signUp.basf-enduser #attributeVerification .buttons #continue{
+    float: none;
+    margin: 0;
+}
+
+.basf-signUp.basf-enduser #attributeVerification .buttons #cancel{
+    display: none;
+}
+
+.basf-enduser #api ul li.Paragraph{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.basf-enduser #api.emailverify ul li.TextBox, .basf-enduser #api.emailverify ul li.Paragraph{
+    width: 100%;
+}
+
+.basf-enduser input::placeholder, .basf-signUp.basf-enduser #attributeVerification .attr ul li .attrEntry .dropdown_single{
+    font-size: 13px;
+}
+
+.textInParagraph{
+    outline: none;
+}
+
+.basf-enduser.page-layout #api .intro p{
+    margin-top: 0;
+}
